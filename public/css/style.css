@@ -1,0 +1,33 @@
+/* bagoan nav */
+.navbar-brand {
+    font-size: 24px;
+}
+.nav-link {
+    margin-right: 30px;
+    font-size: 18px;
+}
+.nav-item, .nav-link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid rgb(17, 17, 17);
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+}
+/* Bagian search */
+.search-comics {
+    padding-left: 700px;
+}
+
+/* Bagian cover */
+.cover {
+    width: 80px;
+}
+.cover-detail {
+    width: 300px;
+}
+/* bagian table */
+.table > tbody > tr > * {
+    vertical-align: middle;
+}
